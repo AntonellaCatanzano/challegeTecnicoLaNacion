@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallegeContactRecords.WebApi", "ChallegeContactRecords\ChallegeContactRecords.WebApi.csproj", "{D6BC9A8F-F48E-4930-B347-B83BB58CE93B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeContactRecords.UnitTest", "ChallengeContactRecords.UnitTest\ChallengeContactRecords.UnitTest.csproj", "{2D67900C-1C2A-473C-BC4F-182FB9AB86BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6BC9A8F-F48E-4930-B347-B83BB58CE93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BC9A8F-F48E-4930-B347-B83BB58CE93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BC9A8F-F48E-4930-B347-B83BB58CE93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BC9A8F-F48E-4930-B347-B83BB58CE93B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D67900C-1C2A-473C-BC4F-182FB9AB86BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D67900C-1C2A-473C-BC4F-182FB9AB86BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D67900C-1C2A-473C-BC4F-182FB9AB86BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D67900C-1C2A-473C-BC4F-182FB9AB86BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60B06166-FCDF-43CD-A4F9-659E4E67C903}
+	EndGlobalSection
+EndGlobal
