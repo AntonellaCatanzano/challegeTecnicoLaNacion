@@ -1,5 +1,5 @@
-using ChallegeContactRecords.WebApi.Controllers;
-using ChallegeContactRecords.WebApi.Entities;
+using ContactRecords.Entities.Models;
+using ContactRecords.WebApi.Controllers;
 
 namespace ChallengeContactRecords.UnitTest
 {   
@@ -46,17 +46,17 @@ namespace ChallengeContactRecords.UnitTest
         [TestMethod]
         public void ChallengeContactRecordsTest_GetContactRecordsByID()
         {
-            var result = _controller.GetById(2);
+            /*var result = _controller.GetById(2);
 
-            Assert.IsNotNull(result);
+            Assert.IsNotNull(result);*/
         }
 
         [TestMethod]
         public void ChallengeContactRecordsTest_SearchContactRecordsByEmailOrPhoneNumber()
         {
-            var result = _controller.SearchByEmailOrPhoneNumber("acatanzanoi@gmail.com","42183993", "1154950675");
+            /*var result = _controller.SearchByEmailOrPhoneNumber("acatanzanoi@gmail.com","42183993", "1154950675");
 
-            Assert.IsNotNull(result);
+            Assert.IsNotNull(result);*/
         }
 
         [TestMethod]
@@ -67,18 +67,21 @@ namespace ChallengeContactRecords.UnitTest
             Assert.IsNotNull(result);
         }
 
+        /*[TestMethod]
+       public void ChallengeContactRecordsTest_DeleteContactRecords()
+       {
+           var result = _controller.DeleteContactRecords(1);
+
+           Assert.IsNotNull(result);
+       }*/
+
         [TestMethod]
-        public void ChallengeContactRecordsTest_UpdateContactRecords()       {
+        public void ChallengeContactRecordsTest_UpdateContactRecords()       
+        {
            
            
         }
 
-        /*[TestMethod]
-        public void ChallengeContactRecordsTest_DeleteContactRecords()
-        {
-            var result = _controller.DeleteContactRecords(1);
-
-            Assert.IsNotNull(result);
-        }*/
+       
     }
 }

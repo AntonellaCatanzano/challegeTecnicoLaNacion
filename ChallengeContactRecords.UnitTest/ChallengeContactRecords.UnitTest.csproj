@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -20,7 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChallegeContactRecords\ChallegeContactRecords.WebApi.csproj" />
+    <ProjectReference Include="..\ContactRecords.WebApi\ContactRecords.WebApi.csproj" />
+    <ProjectReference Include="..\Entities\ContactRecords.Entities.csproj" />
   </ItemGroup>
 
 </Project>
